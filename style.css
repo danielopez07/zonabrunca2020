@@ -13,13 +13,21 @@
  Domain Path:  /lang
 */
 
-
+/* CSS Custom Properties */
+:root {
+	--amarillo: #f4be1a;
+	--verde: #3d523f
+}
 
 /* Color links header nav */
-
 body:not(.overlay-header) .primary-menu > li > a {
 	color: #fff !important;
 }
 body:not(.overlay-header) .primary-menu > li > .icon{
 	color: #fff !important;
+}
+
+/* Color buttons, like search */
+button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-file__button, input[type="button"], input[type="reset"], input[type="submit"], .bg-accent, .bg-accent-hover:hover, .bg-accent-hover:focus, :root .has-accent-background-color, .comment-reply-link {
+  background-color: var(--amarillo) !important;
 }
