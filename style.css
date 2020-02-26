@@ -47,6 +47,11 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	text-align: center;
 	margin: 1em;
 }
+.zona-card:hover,
+.zona-card:focus,
+.zona-card:active {
+  box-shadow: 5px 10px 8px #888888;
+}
 .zona-card a {
 	color: #fff;
 	text-decoration: none;
@@ -55,6 +60,10 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	margin: auto;
 	padding: .5em;
 	font-size: 3.2rem;
+}
+.zona-card figure {
+	max-height: 9em;
+	overflow: hidden;
 }
 .zona-card-image img {
 	border-radius: 10px 10px 0 0;
