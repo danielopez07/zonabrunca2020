@@ -12,3 +12,14 @@
  Text Domain:  zonabrunca2020
  Domain Path:  /lang
 */
+
+
+
+/* Color links header nav */
+
+body:not(.overlay-header) .primary-menu > li > a {
+	color: #fff !important;
+}
+body:not(.overlay-header) .primary-menu > li > .icon{
+	color: #fff !important;
+}
