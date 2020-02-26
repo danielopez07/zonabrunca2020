@@ -68,3 +68,12 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 .zona-card-image img {
 	border-radius: 10px 10px 0 0;
 }
+
+/* Search form input */
+.search-form .search-field {
+	text-align: center;
+}
+/* Search form search page */
+.archive-header-inner form {
+	margin: 2em auto;
+}
