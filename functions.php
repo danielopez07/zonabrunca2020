@@ -11,3 +11,8 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
+
+add_action( 'wp_enqueue_scripts', 'font_awesome' );
+function font_awesome() {
+  wp_enqueue_style ( 'font_awesome', get_stylesheet_directory_uri() . '/vendor/font-awesome-4.7.0/css/font-awesome.min.css' );
+}
