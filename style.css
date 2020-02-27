@@ -38,6 +38,16 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	flex-direction: row;
 	flex-wrap: wrap;
 	list-style-type: none;
+	justify-content: center;
+	margin: 0;
+}
+.services-bar li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav-toggle {
+	position: relative;
 }
 
 /* Cards */
