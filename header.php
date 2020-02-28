@@ -29,10 +29,10 @@
 		<?php
 		wp_body_open();
 		?>
+		<?php get_template_part( 'template-parts/services-bar' ); ?>
 
 		<header id="site-header" class="header-footer-group" role="banner">
 
-			<?php get_template_part( 'template-parts/services-bar' ); ?>
 
 			<div class="header-inner section-inner">
 

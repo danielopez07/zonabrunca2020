@@ -33,6 +33,14 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 }
 
 /* Services bar */
+.services-bar {
+	width: 100%;
+	background-color: var(--verde);
+	color: #fff;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
 .services-bar ul {
 	display: flex;
 	flex-direction: row;
@@ -40,11 +48,13 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	list-style-type: none;
 	justify-content: center;
 	margin: 0;
+	padding: .5em 0;
 }
 .services-bar li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 17rem;
 }
 .nav-toggle {
 	position: relative;
