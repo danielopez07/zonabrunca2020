@@ -38,7 +38,7 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 }
 
 /* Front page header */
-.entry-header {
+.entry-header-front {
 	background-image: url('/wp-content/uploads/2020/02/Instagram-Grid-1200x675.png');
 	background-size: cover;
 	background-attachment: fixed;

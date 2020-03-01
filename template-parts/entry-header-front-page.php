@@ -9,7 +9,7 @@
 
 ?>
 
-<header class="entry-header has-text-align-center<?php echo esc_attr( $entry_header_classes ); ?>">
+<header class="entry-header-front has-text-align-center<?php echo esc_attr( $entry_header_classes ); ?>">
 
 	<div class="entry-header-inner section-inner medium">
 		<?php get_search_form(); ?>
