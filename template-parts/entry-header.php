@@ -67,9 +67,9 @@ if ( is_singular() ) {
 		}
 
 		// Default to displaying the post meta.
-		if ( ! is_search() ) {
-			twentytwenty_the_post_meta( get_the_ID(), 'single-top' );
-		}
+		// if ( ! is_search() ) {
+		// 	twentytwenty_the_post_meta( get_the_ID(), 'single-top' );
+		// }
 		?>
 
 	</div><!-- .entry-header-inner -->
