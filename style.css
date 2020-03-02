@@ -54,6 +54,7 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	background-color: var(--verde);
 	color: #fff;
 	height: 100vh;
+	padding: 2em 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -80,7 +81,8 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	width: 17rem;
 }
 .services-bar i {
-	font-size: 4em;
+	font-size: 3em;
+	margin: .5em;
 }
 .nav-toggle {
 	position: relative;
