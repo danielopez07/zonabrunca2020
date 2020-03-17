@@ -16,3 +16,10 @@ add_action( 'wp_enqueue_scripts', 'font_awesome' );
 function font_awesome() {
   wp_enqueue_style ( 'font_awesome', get_stylesheet_directory_uri() . '/vendor/font-awesome-4.7.0/css/font-awesome.min.css' );
 }
+
+// load_theme_textdomain( 'zonabrunca2020' );
+
+function brunca_load_theme_textdomain() {
+  load_theme_textdomain( 'zonabrunca2020', get_stylesheet_directory() . '/lang' );
+}
+add_action( 'after_setup_theme', 'brunca_load_theme_textdomain' );
