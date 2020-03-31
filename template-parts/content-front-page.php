@@ -15,11 +15,9 @@
 
 	get_template_part( 'template-parts/entry-header-front-page' );
 
-	get_template_part( 'template-parts/services-bar' );
-
 	?>
 
-	<div class="post-inner <?php echo is_page_template( 'templates/template-full-width.php' ) ? '' : 'thin'; ?> ">
+	<div class="post-inner front-page <?php echo is_page_template( 'templates/template-full-width.php' ) ? '' : 'thin'; ?> ">
 
 		<div class="entry-content">
 

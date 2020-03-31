@@ -12,6 +12,9 @@
 <header class="entry-header-front has-text-align-center<?php echo esc_attr( $entry_header_classes ); ?>">
 
 	<div class="entry-header-inner section-inner medium">
+
+		<?php	get_template_part( 'template-parts/services-bar' ); ?>
+		
 		<?php get_search_form(); ?>
 		<?php // echo get_the_post_thumbnail_url(); ?>
 
