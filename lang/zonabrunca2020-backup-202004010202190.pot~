@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zona Brunca Child for Twenty Twenty\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-01 02:02+0000\n"
+"POT-Creation-Date: 2020-03-01 06:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,48 +15,20 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.3.1; wp-5.3.2"
 
-#: template-parts/services-bar.php:2
-msgid "Servicios"
-msgstr ""
-
-#: template-parts/services-bar.php:5
-msgid "/cosas-que-hacer"
-msgstr ""
-
 #: template-parts/services-bar.php:7
 msgid "Cosas que hacer"
-msgstr ""
-
-#: template-parts/services-bar.php:9
-msgid "/donde-comer"
-msgstr ""
-
-#: template-parts/services-bar.php:11
-msgid "Donde comer"
-msgstr ""
-
-#: template-parts/services-bar.php:13
-msgid "/donde-alojarse"
 msgstr ""
 
 #: template-parts/services-bar.php:15
 msgid "Donde alojarse"
 msgstr ""
 
-#: template-parts/services-bar.php:17
-msgid "/servicios-adicinales"
+#: template-parts/services-bar.php:11
+msgid "Donde comer"
 msgstr ""
 
-#: template-parts/services-bar.php:19
-msgid "Servicios adicinales"
-msgstr ""
-
-#. Name of the theme
-msgid "Zona Brunca Child for Twenty Twenty"
-msgstr ""
-
-#. Description of the theme
-msgid "Twenty Twenty child theme for Zona Brunca"
+#. Author URI of the theme
+msgid "https://sandstormagency.com"
 msgstr ""
 
 #. URI of the theme
@@ -67,6 +39,18 @@ msgstr ""
 msgid "Sandstorm Agency Ldta"
 msgstr ""
 
-#. Author URI of the theme
-msgid "https://sandstormagency.com"
+#: template-parts/services-bar.php:2
+msgid "Servicios"
+msgstr ""
+
+#: template-parts/services-bar.php:19
+msgid "Servicios adicinales"
+msgstr ""
+
+#. Description of the theme
+msgid "Twenty Twenty child theme for Zona Brunca"
+msgstr ""
+
+#. Name of the theme
+msgid "Zona Brunca Child for Twenty Twenty"
 msgstr ""

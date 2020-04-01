@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zona Brunca Child for Twenty Twenty\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-01 06:01+0000\n"
-"PO-Revision-Date: 2020-03-01 06:03+0000\n"
+"POT-Creation-Date: 2020-04-01 02:02+0000\n"
+"PO-Revision-Date: 2020-04-01 02:10+0000\n"
 "Last-Translator: daniel <dlopez@sandstormagency.com>\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -12,22 +12,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.3.1; wp-5.3.2"
+"X-Loco-Version: 2.3.1; wp-5.4"
+
+#: template-parts/services-bar.php:2
+msgid "Servicios"
+msgstr "Services"
+
+#: template-parts/services-bar.php:5
+msgid "/cosas-que-hacer"
+msgstr "/en/cosas-que-hacer"
 
 #: template-parts/services-bar.php:7
 msgid "Cosas que hacer"
 msgstr "Things to do"
 
-#: template-parts/services-bar.php:15
-msgid "Donde alojarse"
-msgstr "Where to stay"
+#: template-parts/services-bar.php:9
+msgid "/donde-comer"
+msgstr "/en/donde-comer"
 
 #: template-parts/services-bar.php:11
 msgid "Donde comer"
 msgstr "Where to eat"
 
-#. Author URI of the theme
-msgid "https://sandstormagency.com"
+#: template-parts/services-bar.php:13
+msgid "/donde-alojarse"
+msgstr "/en/donde-alojarse"
+
+#: template-parts/services-bar.php:15
+msgid "Donde alojarse"
+msgstr "Where to stay"
+
+#: template-parts/services-bar.php:17
+msgid "/servicios-adicinales"
+msgstr "/en/donde-alojarse"
+
+#: template-parts/services-bar.php:19
+msgid "Servicios adicinales"
+msgstr "Additional Services"
+
+#. Name of the theme
+msgid "Zona Brunca Child for Twenty Twenty"
+msgstr ""
+
+#. Description of the theme
+msgid "Twenty Twenty child theme for Zona Brunca"
 msgstr ""
 
 #. URI of the theme
@@ -38,18 +66,6 @@ msgstr ""
 msgid "Sandstorm Agency Ldta"
 msgstr ""
 
-#: template-parts/services-bar.php:2
-msgid "Servicios"
-msgstr "Services"
-
-#: template-parts/services-bar.php:19
-msgid "Servicios adicinales"
-msgstr "Additional Services"
-
-#. Description of the theme
-msgid "Twenty Twenty child theme for Zona Brunca"
-msgstr ""
-
-#. Name of the theme
-msgid "Zona Brunca Child for Twenty Twenty"
+#. Author URI of the theme
+msgid "https://sandstormagency.com"
 msgstr ""

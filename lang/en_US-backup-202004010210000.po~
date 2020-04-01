@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: Zona Brunca Child for Twenty Twenty\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-01 06:01+0000\n"
-"PO-Revision-Date: 2020-03-01 06:02+0000\n"
+"PO-Revision-Date: 2020-03-01 06:03+0000\n"
 "Last-Translator: daniel <dlopez@sandstormagency.com>\n"
-"Language-Team: \n"
+"Language-Team: English (United States)\n"
 "Language: en_US\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
@@ -16,15 +16,15 @@ msgstr ""
 
 #: template-parts/services-bar.php:7
 msgid "Cosas que hacer"
-msgstr ""
+msgstr "Things to do"
 
 #: template-parts/services-bar.php:15
 msgid "Donde alojarse"
-msgstr ""
+msgstr "Where to stay"
 
 #: template-parts/services-bar.php:11
 msgid "Donde comer"
-msgstr ""
+msgstr "Where to eat"
 
 #. Author URI of the theme
 msgid "https://sandstormagency.com"
@@ -40,11 +40,11 @@ msgstr ""
 
 #: template-parts/services-bar.php:2
 msgid "Servicios"
-msgstr ""
+msgstr "Services"
 
 #: template-parts/services-bar.php:19
 msgid "Servicios adicinales"
-msgstr ""
+msgstr "Additional Services"
 
 #. Description of the theme
 msgid "Twenty Twenty child theme for Zona Brunca"

@@ -90,6 +90,10 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	font-size: 3em;
 	margin: .5em;
 }
+.services-bar a {
+	text-decoration: none;
+	color: #fff;
+}
 .nav-toggle {
 	position: relative;
 }
