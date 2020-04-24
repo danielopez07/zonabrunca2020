@@ -19,6 +19,13 @@
 	--verde: #3d523f;
 }
 
+h1, h2, h3, h4 {
+	font-family: 'Ubuntu', sans-serif;
+}
+body, p {
+	font-family: 'Manrope', sans-serif;
+}
+
 /* Accent color (it is chosen in the WP's customizer, but I could not choose white) */
 body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote::before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover {
     color: #fff !important;
