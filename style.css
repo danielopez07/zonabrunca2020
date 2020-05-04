@@ -53,12 +53,28 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	justify-content: center;
 	align-items: center;
 	padding: 2em 0;
+	position: relative;
+	z-index: -1;
 }
 @media (min-width: 768px) {
 	.entry-header-front {
 		background-image: url('/wp-content/themes/zonabrunca2020/imgs/BallenaUvita-desktop.jpg');
 		height: 80vh;
 	}
+}
+.entry-header-front::after {
+	content: '';
+	background-color: #000;
+	opacity: 0.4;
+	top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+	z-index: 0;
+}
+.entry-header-front .entry-header-inner {
+	z-index: 1;
 }
 
 /* Services bar */
