@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zona Brunca Child for Twenty Twenty\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 00:05+0000\n"
-"PO-Revision-Date: 2020-05-04 00:05+0000\n"
+"POT-Creation-Date: 2020-05-04 01:00+0000\n"
+"PO-Revision-Date: 2020-05-04 01:01+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español\n"
 "Language: es_ES\n"
@@ -51,7 +51,7 @@ msgid "/servicios-adicionales"
 msgstr ""
 
 #: template-parts/services-bar.php:19
-msgid "Servicios adicinales"
+msgid "Servicios adicionales"
 msgstr ""
 
 #. Name of the theme

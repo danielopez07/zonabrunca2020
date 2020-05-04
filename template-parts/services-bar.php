@@ -16,7 +16,7 @@
     </li></a>
     <a href="<?php _e('/servicios-adicionales', 'zonabrunca2020'); ?>"><li>
       <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-      <span><?php _e('Servicios adicinales', 'zonabrunca2020'); ?></span>
+      <span><?php _e('Servicios adicionales', 'zonabrunca2020'); ?></span>
     </li></a>
   </ul>
 </nav>
