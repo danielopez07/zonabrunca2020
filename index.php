@@ -46,8 +46,9 @@ get_header();
 			$archive_subtitle = __( 'We could not find any results for your search. You can give it another try through the search form below.', 'twentytwenty' );
 		}
 	} elseif ( ! is_home() ) {
-		$archive_title    = get_the_archive_title();
-		$archive_subtitle = get_the_archive_description();
+		// $archive_title    = get_the_archive_title();
+		// $archive_subtitle = get_the_archive_description();
+		$archive_title = post_type_archive_title( '', false );
 	}
 
 	if ( $archive_title || $archive_subtitle ) {

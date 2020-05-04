@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zona Brunca Child for Twenty Twenty\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 00:05+0000\n"
-"PO-Revision-Date: 2020-05-04 00:06+0000\n"
+"POT-Creation-Date: 2020-05-03 23:50+0000\n"
+"PO-Revision-Date: 2020-05-03 23:51+0000\n"
 "Last-Translator: \n"
-"Language-Team: English (United States)\n"
-"Language: en_US\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,43 +16,43 @@ msgstr ""
 
 #: template-parts/services-bar.php:2
 msgid "Servicios"
-msgstr "Services"
+msgstr ""
 
 #: template-parts/services-bar.php:3
 msgid "Descripción de los servicios"
-msgstr "Find the best places in Zona Brunca"
+msgstr "Encuentra los mejores lugares en Zona Brunca"
 
 #: template-parts/services-bar.php:5
 msgid "/cosas-que-hacer"
-msgstr "/en/cosas-que-hacer"
+msgstr ""
 
 #: template-parts/services-bar.php:7
 msgid "Cosas que hacer"
-msgstr "Things to do"
+msgstr ""
 
 #: template-parts/services-bar.php:9
 msgid "/donde-comer"
-msgstr "/en/donde-comer"
+msgstr ""
 
 #: template-parts/services-bar.php:11
 msgid "Donde comer"
-msgstr "Where to eat"
+msgstr ""
 
 #: template-parts/services-bar.php:13
 msgid "/donde-alojarse"
-msgstr "/en/donde-alojarse"
+msgstr ""
 
 #: template-parts/services-bar.php:15
 msgid "Donde alojarse"
-msgstr "Where to stay"
+msgstr ""
 
 #: template-parts/services-bar.php:17
-msgid "/servicios-adicionales"
-msgstr "/en/servicios-adicionales"
+msgid "/servicios-adicinales"
+msgstr ""
 
 #: template-parts/services-bar.php:19
 msgid "Servicios adicinales"
-msgstr "Additional Services"
+msgstr ""
 
 #. Name of the theme
 msgid "Zona Brunca Child for Twenty Twenty"
