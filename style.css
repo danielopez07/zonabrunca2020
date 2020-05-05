@@ -54,7 +54,6 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	align-items: center;
 	padding: 2em 0;
 	position: relative;
-	z-index: -1;
 }
 @media (min-width: 768px) {
 	.entry-header-front {
