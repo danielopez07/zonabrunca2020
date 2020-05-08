@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zona Brunca Child for Twenty Twenty\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 01:00+0000\n"
+"POT-Creation-Date: 2020-05-07 02:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -53,6 +53,14 @@ msgstr ""
 
 #: template-parts/services-bar.php:19
 msgid "Servicios adicionales"
+msgstr ""
+
+#: template-parts/content-front-page.php:55
+msgid "¡Suscribase a nuestro newsletter!"
+msgstr ""
+
+#: template-parts/content-front-page.php:57
+msgid "[email-subscribers-form id=\"1\"]"
 msgstr ""
 
 #. Name of the theme

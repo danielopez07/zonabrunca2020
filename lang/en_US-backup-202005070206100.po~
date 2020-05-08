@@ -1,59 +1,66 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Zona Brunca Child for Twenty Twenty\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 00:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: \n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: 2020-05-07 02:05+0000\n"
+"PO-Revision-Date: 2020-05-07 02:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.3.1; wp-5.3.2"
+"X-Loco-Version: 2.3.3; wp-5.4.1"
 
 #: template-parts/services-bar.php:2
 msgid "Servicios"
-msgstr ""
+msgstr "Services"
 
 #: template-parts/services-bar.php:3
 msgid "Descripción de los servicios"
-msgstr ""
+msgstr "Find the best places in Zona Brunca"
 
 #: template-parts/services-bar.php:5
 msgid "/cosas-que-hacer"
-msgstr ""
+msgstr "/en/cosas-que-hacer"
 
 #: template-parts/services-bar.php:7
 msgid "Cosas que hacer"
-msgstr ""
+msgstr "Things to do"
 
 #: template-parts/services-bar.php:9
 msgid "/donde-comer"
-msgstr ""
+msgstr "/en/donde-comer"
 
 #: template-parts/services-bar.php:11
 msgid "Donde comer"
-msgstr ""
+msgstr "Where to eat"
 
 #: template-parts/services-bar.php:13
 msgid "/donde-alojarse"
-msgstr ""
+msgstr "/en/donde-alojarse"
 
 #: template-parts/services-bar.php:15
 msgid "Donde alojarse"
-msgstr ""
+msgstr "Where to stay"
 
 #: template-parts/services-bar.php:17
 msgid "/servicios-adicionales"
-msgstr ""
+msgstr "/en/servicios-adicionales"
 
 #: template-parts/services-bar.php:19
-msgid "Servicios adicinales"
+msgid "Servicios adicionales"
+msgstr "Additional Services"
+
+#: template-parts/content-front-page.php:55
+msgid "¡Suscribase a nuestro newsletter!"
 msgstr ""
+
+#: template-parts/content-front-page.php:57
+msgid "[email-subscribers-form id=\"1\"]"
+msgstr "[email-subscribers-form id=\"2\"]"
 
 #. Name of the theme
 msgid "Zona Brunca Child for Twenty Twenty"
