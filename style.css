@@ -184,7 +184,7 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 }
 @media (min-width: 768px) {
 	.subscribe-newsletter {
-	  padding: 2rem 8rem;
+	  padding: 2rem 10rem;
 	}
 }
 
