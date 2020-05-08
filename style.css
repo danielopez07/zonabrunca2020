@@ -189,6 +189,6 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 }
 
 /* Footer */
-.footer-top-hidden #site-footer {
+.footer-top-visible .footer-nav-widgets-wrapper, .footer-top-hidden #site-footer {
 	margin-top: 0;
 }
