@@ -51,7 +51,7 @@
 
 	<?php	get_template_part( 'template-parts/cards-zonas' ); ?>
 
-	<article class="section-inner">
+	<article class="subscribe-newsletter">
 		<h2><?php _e( '¡Suscribase a nuestro newsletter!', 'zonabrunca2020') ?></h2>
 		<?php
 		$form = __( '[email-subscribers-form id="1"]', 'zonabrunca2020');

@@ -123,7 +123,8 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 
 .post-inner.front-page {
 	background-color: var(--verde);
-    padding: 8rem 0;
+	color: #fff;
+  padding: 8rem 0;
 }
 
 /* Cards */
@@ -173,4 +174,21 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 /* Search form search page */
 .archive-header-inner form {
 	margin: 2em auto;
+}
+
+/* Subscribe to newsletter */
+.subscribe-newsletter {
+	background-color: var(--verde);
+	color: #fff;
+  padding: 2rem;
+}
+@media (min-width: 768px) {
+	.subscribe-newsletter {
+	  padding: 2rem 8rem;
+	}
+}
+
+/* Footer */
+.footer-top-hidden #site-footer {
+	margin-top: 0;
 }
