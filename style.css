@@ -202,10 +202,10 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	margin-top: 0;
 }
 
-.footer-nav-widgets-wrapper.header-footer-group,
+/* .footer-nav-widgets-wrapper.header-footer-group,
 #site-footer {
 	background-color: #000!important;
-}
+} */
 
 .footer-nav-widgets-wrapper.header-footer-group a {
 	color: #fff!important;
