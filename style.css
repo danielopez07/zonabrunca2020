@@ -196,16 +196,33 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	}
 }
 
+/* Social feeds */
+.social-feeds {
+	padding: 4rem 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.social-feeds .facebook,
+.social-feeds .instagram {
+	padding: 1em 0;
+	text-align: center;
+	width: 40%;
+	min-width: 375px;
+}
+
 /* Footer */
 .footer-top-visible .footer-nav-widgets-wrapper,
 .footer-top-hidden #site-footer {
 	margin-top: 0;
 }
 
-/* .footer-nav-widgets-wrapper.header-footer-group,
-#site-footer {
-	background-color: #000!important;
-} */
+.fill-children-current-color * {
+    fill: var(--verde);
+}
+.social-icons a {
+	background-color: #fff!important;
+}
 
 .footer-nav-widgets-wrapper.header-footer-group a {
 	color: #fff!important;

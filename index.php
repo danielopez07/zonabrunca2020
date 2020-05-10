@@ -92,17 +92,18 @@ get_header();
 	} elseif ( is_search() ) {
 		?>
 
-		<div class="no-search-results-form section-inner thin">
+		<!-- <div class="no-search-results-form section-inner thin"> -->
 
 			<?php
-			get_search_form(
-				array(
-					'label' => __( 'search again', 'twentytwenty' ),
-				)
-			);
+			// get_search_form(
+			// 	array(
+			// 		'label' => __( 'search again', 'twentytwenty' ),
+			// 	)
+			// );
 			?>
 
-		</div><!-- .no-search-results -->
+		<!-- </div> -->
+		<!-- .no-search-results -->
 
 		<?php
 	}
