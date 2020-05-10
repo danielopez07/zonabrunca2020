@@ -185,15 +185,28 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 .subscribe-newsletter {
 	background-color: var(--verde);
 	color: #fff;
-  padding: 2rem;
+  padding: 4rem 2rem;
+}
+.subscribe-newsletter h2 {
+	margin: 0rem auto 3rem;
 }
 @media (min-width: 768px) {
 	.subscribe-newsletter {
-	  padding: 2rem 10rem;
+	  padding: 8rem 10rem;
 	}
 }
 
 /* Footer */
-.footer-top-visible .footer-nav-widgets-wrapper, .footer-top-hidden #site-footer {
+.footer-top-visible .footer-nav-widgets-wrapper,
+.footer-top-hidden #site-footer {
 	margin-top: 0;
+}
+
+.footer-nav-widgets-wrapper.header-footer-group,
+#site-footer {
+	background-color: #000!important;
+}
+
+.footer-nav-widgets-wrapper.header-footer-group a {
+	color: #fff!important;
 }
