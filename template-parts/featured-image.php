@@ -12,9 +12,8 @@ if ( has_post_thumbnail() && ! post_password_required() ) {
 	$featured_media_inner_classes = '';
 
 	// Make the featured media thinner on archive pages.
-	if ( ! is_singular() || ! is_search() ) {
-		$featured_media_inner_classes .= ' medium';
-	} elseif (is_search()) {
+	if ( ! is_singular() ) {
+		// $featured_media_inner_classes .= ' medium';
 		$featured_media_inner_classes .= ' small';
 	}
 	?>
