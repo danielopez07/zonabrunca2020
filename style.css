@@ -176,6 +176,11 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	margin: 2em auto;
 }
 
+/* search thumbnail */
+.section-inner.small {
+  max-width: 50rem;
+}
+
 /* Subscribe to newsletter */
 .subscribe-newsletter {
 	background-color: var(--verde);
