@@ -127,6 +127,12 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
   padding: 8rem 0;
 }
 
+/* Youtube embed */
+
+.wp-embed-responsive .wp-block-embed.wp-embed-aspect-4-3 .wp-block-embed__wrapper::before {
+    padding-top: 57%;
+}
+
 /* Cards */
 .zona-cards {
 	display: flex;
