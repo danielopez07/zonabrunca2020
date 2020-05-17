@@ -3,36 +3,28 @@ get_header();
 
 $uri = $_SERVER['REQUEST_URI'];
 $uri = array_filter(explode("/", $uri));
-$category = $uri[2];
+$category = $uri[1] == 'category' ? $uri[2] : $uri[3];
 ?>
 
 <main id="site-content" role="main">
+  <h1 class="category-title"><?php single_cat_title(); ?></h1>
+  <hr>
 
-  <div class="post-inner <?php echo is_page_template( 'templates/template-full-width.php' ) ? '' : 'thin'; ?> ">
+  <?php
+  $query = new WP_Query( array(
+    'category_name' => $category,
+    'post_type' => 'any'
+  ) );
+  ?>
 
-    <div class="entry-content">
-      <h2 class="widget-title"><?php echo $category; ?></h2>
-
-      <?php
-      $query = new WP_Query( array(
-        'category_name' => $category,
-        'post_type' => 'any'
-      ) );
-      ?>
-
-      <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-
-        <ul>
-        <li><strong><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></strong><br />
-
-        <?php the_excerpt(); ?> </li>
-        </ul>
-      <?php endwhile; wp_reset_postdata(); ?>
-    </div>
-  </div>
-
-
-<main>
+  <?php 
+  while ( $query->have_posts() ) : 
+    $query->the_post(); 
+    get_template_part( 'template-parts/content', get_post_type() );
+  endwhile; 
+  wp_reset_postdata(); 
+  ?>
+</main>
 
 <?php
 get_footer();

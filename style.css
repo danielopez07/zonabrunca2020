@@ -233,3 +233,9 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 .footer-nav-widgets-wrapper.header-footer-group a {
 	color: #fff!important;
 }
+
+/* Category index */
+
+.category-title {
+    text-align: center;
+}
