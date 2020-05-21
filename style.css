@@ -127,6 +127,11 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
   padding: 8rem 0;
 }
 
+/* Featured businesses */
+.featured-businesses h2 {
+    text-align: center;
+}
+
 /* Youtube embed */
 
 .wp-embed-responsive .wp-block-embed.wp-embed-aspect-4-3 .wp-block-embed__wrapper::before {
@@ -134,13 +139,13 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 }
 
 /* Cards */
-.zona-cards {
+.cards {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-.zona-card {
+.card {
 	background-color: var(--verde);
 	color: #fff;
 	border-radius: 10px;
@@ -149,26 +154,26 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	margin: 1em;
 	min-width: 26%;
 }
-.zona-card:hover,
-.zona-card:focus,
-.zona-card:active {
+.card:hover,
+.card:focus,
+.card:active {
   box-shadow: 5px 10px 8px #888888;
 }
-.zona-card a {
+.card a {
 	color: #fff;
 	text-decoration: none;
 }
-.zona-card h2 {
+.card h2 {
 	margin: auto;
 	padding: .5em;
 	font-size: 3.2rem;
 }
-.zona-card figure {
+.card figure {
 	max-height: 9em;
 	width: 100%;
 	overflow: hidden;
 }
-.zona-card-image img {
+.card-image img {
 	width: 100%;
 	border-radius: 10px 10px 0 0;
 }
