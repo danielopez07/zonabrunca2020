@@ -14,6 +14,8 @@
 	<?php
 
 	get_template_part( 'template-parts/entry-header-front-page' );
+	
+	get_template_part( 'template-parts/featured-businesses' );
 
 	?>
 
