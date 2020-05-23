@@ -18,8 +18,15 @@ function font_awesome() {
 }
 
 // load_theme_textdomain( 'zonabrunca2020' );
-
+add_action( 'after_setup_theme', 'brunca_load_theme_textdomain' );
 function brunca_load_theme_textdomain() {
   load_theme_textdomain( 'zonabrunca2020', get_stylesheet_directory() . '/lang' );
 }
-add_action( 'after_setup_theme', 'brunca_load_theme_textdomain' );
+
+// load slick carousel
+add_action( 'wp_enqueue_scripts', 'slick_carousel' );
+function slick_carousel() {
+  wp_enqueue_script( 'embla-carousel-js', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array(), false, true );
+  wp_enqueue_style( 'embla-carousel-css-1', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array(), false, 'all' );
+  wp_enqueue_style( 'embla-carousel-css-2', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css', array(), false, 'all' );
+}
