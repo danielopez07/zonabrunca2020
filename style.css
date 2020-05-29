@@ -130,7 +130,11 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 /* Featured businesses */
 .featured-businesses h2 {
     text-align: center;
-    color: var(--verde);
+}
+.featured-businesses .categories-card {
+	padding-top: 1em;
+	display: flex;
+	justify-content: space-around;
 }
 
 /* Youtube embed */
@@ -160,11 +164,17 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 .card:active {
   box-shadow: 5px 10px 8px #888888;
 }
+.card .entry-categories {
+    padding: 0 1em;
+    margin: 0;
+    text-align: center;
+}
 .card a {
 	color: #fff;
 	text-decoration: none;
 }
-.card h2 {
+.card h2,
+.card h3 {
 	margin: auto;
 	padding: .5em;
 	font-size: 3.2rem;
