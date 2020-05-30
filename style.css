@@ -129,7 +129,8 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 
 /* Featured businesses */
 .featured-businesses h2 {
-    text-align: center;
+	text-align: center;
+	color: var(--verde);
 }
 .featured-businesses .categories-card {
 	padding-top: 1em;
