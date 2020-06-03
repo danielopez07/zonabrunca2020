@@ -49,7 +49,7 @@
     <script>
     jQuery(document).ready(function() {
         jQuery('.slider-nav').slick({
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             // autoplay: true,
             // autoplaySpeed: 3000,
