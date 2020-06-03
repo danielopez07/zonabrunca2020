@@ -4,7 +4,7 @@
     <div class="slider-nav">
         <?php
         $the_query = new WP_Query( array(
-            'category_name' => 'destacados,featured',
+            'category_name' => 'destacados,featured,cosas-que-hacer,things-to-do,donde-comer,where-to-eat,hospedaje,where-to-stay,servicios-adicionales,other-services',
             'post_type' => 'any'
         ) );
         ?>
