@@ -1,5 +1,5 @@
 <section class="featured-businesses">
-    <h2><?php _e( 'Destacados', 'zonabrunca2020' ) ?></h2>
+    <!-- <h2><?php _e( 'Destacados', 'zonabrunca2020' ) ?></h2> -->
 
     <div class="slider-nav">
         <?php
@@ -25,18 +25,20 @@
 
                 ?>
                 <div class="content-card">
-                    <div class="categories-card">
-                        <span class="screen-reader-text"><?php _e( 'Categories', 'twentytwenty' ); ?></span>
-                        <?php the_category( ' ' ); ?>
-                    </div>
                     <?php
                     echo '<a href="' . esc_url( get_permalink() ) . '">';
                     echo '<h3>' . get_the_title() . '</h3>';
                     echo '</a>';
                     ?>
+                    <div class="categories-card">
+                        <span class="screen-reader-text"><?php _e( 'Categories', 'twentytwenty' ); ?></span>
+                        <?php the_category( ', ' ); ?>
+                    </div>
+                    <div class="excerpt-card">
+                        <?php the_excerpt(); ?>
+                    </div>
                 </div>
                 <?php
-                echo '</a>';
             echo '</article></div>';
         endwhile; 
         wp_reset_postdata(); 
@@ -48,8 +50,8 @@
         jQuery('.slider-nav').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 3000,
+            // autoplay: true,
+            // autoplaySpeed: 3000,
             speed: 300,
             dots: false,
             centerMode: true,

@@ -132,10 +132,22 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	text-align: center;
 	color: var(--verde);
 }
+.featured-businesses .card {
+	height: 70vh;
+	overflow: hidden;
+}
+.featured-businesses .card h3 {
+	padding: 0;
+}
+.featured-businesses .content-card {
+	text-align: left;
+	padding: 1em 1em;
+}
 .featured-businesses .categories-card {
-	padding-top: 1em;
-	display: flex;
-	justify-content: space-around;
+	padding: 0 0 1em;
+}
+.featured-businesses .excerpt-card {
+	font-size: 1.3rem;
 }
 
 /* Youtube embed */
@@ -155,6 +167,7 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	background-color: var(--verde);
 	color: #fff;
 	border-radius: 10px;
+	box-shadow: 0px 1px 0px 1px #888;
 	width: 16em;
 	text-align: center;
 	margin: 1em;
@@ -163,7 +176,7 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 .card:hover,
 .card:focus,
 .card:active {
-  box-shadow: 5px 10px 8px #888888;
+  box-shadow: 0px 1px 1px 2px #888;
 }
 .card .entry-categories {
     padding: 0 1em;
