@@ -133,7 +133,7 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	color: var(--verde);
 }
 .featured-businesses .card {
-	height: 70vh;
+	height: 20em;
 	overflow: hidden;
 }
 .featured-businesses .card h3 {

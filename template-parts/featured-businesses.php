@@ -4,8 +4,8 @@
     <div class="slider-nav">
         <?php
         $the_query = new WP_Query( array(
-            'category_name' => 'destacados,featured,cosas-que-hacer,things-to-do,donde-comer,where-to-eat,hospedaje,where-to-stay,servicios-adicionales,other-services',
-            'post_type' => 'any'
+            // 'category_name' => 'destacados,featured',
+            'post_type' => array('cosas-que-hacer', 'donde-comer', 'donde-alojarse', 'servicios')
         ) );
         ?>
 
@@ -19,7 +19,7 @@
                     if($img)
                         echo '<figure class="card-image">' . get_the_post_thumbnail($the_query->post->ID, 'medium') . '</figure>';
                     else {
-                        echo '<figure class="card-image"><img src="wp-content/uploads/2020/02/PZ-scaled-1-300x169.jpg" class="attachment-medium size-medium wp-post-image" alt="" srcset="/wp-content/uploads/2020/02/PZ-scaled-1-300x169.jpg 300w, /wp-content/uploads/2020/02/PZ-scaled-1-1024x576.jpg 1024w, /wp-content/uploads/2020/02/PZ-scaled-1-768x432.jpg 768w, /wp-content/uploads/2020/02/PZ-scaled-1-1536x864.jpg 1536w, /wp-content/uploads/2020/02/PZ-scaled-1-2048x1152.jpg 2048w, /wp-content/uploads/2020/02/PZ-scaled-1-1200x675.jpg 1200w, /wp-content/uploads/2020/02/PZ-scaled-1-1980x1114.jpg 1980w" sizes="(max-width: 300px) 100vw, 300px" width="300" height="169"></figure>';
+                        echo '<figure class="card-image"><img src="/wp-content/themes/zonabrunca2020/imgs/BallenaUvita-mobile.jpg"></figure>';
                     }
                 echo '</a>';
 
