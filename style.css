@@ -138,8 +138,8 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	color: var(--verde);
 }
 .featured-businesses .card {
-	margin: auto;
-	height: 20em;
+	margin: 1em auto;
+	height: 26em;
 	overflow: hidden;
 }
 .featured-businesses .card h3 {
