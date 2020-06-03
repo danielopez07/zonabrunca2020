@@ -39,6 +39,11 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
   background-color: var(--amarillo) !important;
 }
 
+/* Menu */
+.mobile-menu .fill-children-current-color * {
+	fill: #fff;
+}
+
 /* Language flags in menu */
 .primary-menu > li {
     margin: auto .5em;
