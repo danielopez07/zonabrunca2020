@@ -5,7 +5,8 @@
         <?php
         $the_query = new WP_Query( array(
             // 'category_name' => 'destacados,featured',
-            'post_type' => array('cosas-que-hacer', 'donde-comer', 'donde-alojarse', 'servicios')
+            'post_type' => array('cosas-que-hacer', 'donde-comer', 'donde-alojarse', 'servicios'),
+            'nopaging' => true
         ) );
         ?>
 
