@@ -156,14 +156,15 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	font-size: 1.3rem;
 }
 button.slick-prev {
-	background-color: #f5efe0 !important;
-    left: 10px;
+	background-color: #f5efe000 !important;
+	left: 10px;
+	z-index: 1001;
 }
 .slick-prev::before {
 	color: var(--verde);
 }
 button.slick-next  {
-	background-color: #f5efe0 !important;
+	background-color: #f5efe000 !important;
     right: 10px;
 }
 .slick-next::before {
