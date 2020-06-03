@@ -133,6 +133,7 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	color: var(--verde);
 }
 .featured-businesses .card {
+	margin: auto;
 	height: 20em;
 	overflow: hidden;
 }
@@ -148,6 +149,20 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 }
 .featured-businesses .excerpt-card {
 	font-size: 1.3rem;
+}
+button.slick-prev {
+	background-color: #f5efe0 !important;
+    left: 10px;
+}
+.slick-prev::before {
+	color: var(--verde);
+}
+button.slick-next  {
+	background-color: #f5efe0 !important;
+    right: 10px;
+}
+.slick-next::before {
+	color: var(--verde);
 }
 
 /* Youtube embed */

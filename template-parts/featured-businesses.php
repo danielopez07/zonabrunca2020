@@ -69,17 +69,10 @@
                     breakpoint: 600,
                         settings: {
                             slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                },
-                {
-                    breakpoint: 500,
-                        settings: {
-                            slidesToShow: 1,
                             slidesToScroll: 1,
                             centerMode: false,
                         }
-                }
+                },
                 // You can unslick at a given breakpoint now by adding:
                 // settings: "unslick"
                 // instead of a settings object
