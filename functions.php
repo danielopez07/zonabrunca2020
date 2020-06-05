@@ -26,16 +26,19 @@ function brunca_load_theme_textdomain() {
 // load slick carousel
 add_action( 'wp_enqueue_scripts', 'slick_carousel' );
 function slick_carousel() {
-    if( is_front_page() ) {
+    if( is_front_page() || is_singular( 'zona' ) ) {
         wp_enqueue_script( 'embla-carousel-js', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array(), false, true );
         wp_enqueue_style( 'embla-carousel-css-1', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array(), false, 'all' );
         wp_enqueue_style( 'embla-carousel-css-2', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css', array(), false, 'all' );
+        wp_enqueue_script( 'front_page_js', get_stylesheet_directory_uri() . '/js/slick-config.js' );
     }
 }
 
+// load some js for the front page
 add_action( 'wp_enqueue_scripts', 'front_page_js' );
 function front_page_js() {
-    if( is_front_page() )
+    if( is_front_page() ) {
         wp_enqueue_script( 'front_page_js', get_stylesheet_directory_uri() . '/js/front-page.js' );
         wp_enqueue_script( 'instagram', '//www.instagram.com/embed.js' );
+    }
 }

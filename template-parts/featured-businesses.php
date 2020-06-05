@@ -3,11 +3,30 @@
 
     <div class="slider-nav">
         <?php
-        $the_query = new WP_Query( array(
-            // 'category_name' => 'destacados,featured',
-            'post_type' => array('cosas-que-hacer', 'donde-comer', 'donde-alojarse', 'servicios'),
-            'nopaging' => true
-        ) );
+        if( is_front_page() ) {
+            $the_query = new WP_Query( array(
+                // 'category_name' => 'destacados,featured',
+                'post_type' => array('cosas-que-hacer', 'donde-comer', 'donde-alojarse', 'servicios'),
+                'nopaging' => true
+            ) );
+        } else {
+            // for use in regions pages
+            
+            $uri = $_SERVER['REQUEST_URI'];
+            $uri = array_filter( explode( "/", $uri ) );
+            if ( $uri[1] != 'zona' ) {
+                $category = $uri[1] . '-' . $uri[3];
+                $category = str_replace( "-2", "", $category );
+            } else {
+                $category = $uri[2];
+            }
+
+            $the_query = new WP_Query( array(
+                'category_name' => $category,
+                'post_type' => array('cosas-que-hacer', 'donde-comer', 'donde-alojarse', 'servicios'),
+                'nopaging' => true
+            ) );
+        }
         ?>
 
         <?php 
