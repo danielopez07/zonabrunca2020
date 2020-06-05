@@ -20,7 +20,6 @@
             } else {
                 $category = $uri[2];
             }
-            echo $category;
 
             $the_query = new WP_Query( array(
                 'category_name' => $category,
