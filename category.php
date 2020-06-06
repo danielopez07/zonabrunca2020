@@ -1,31 +1,29 @@
 <?php
-get_header();
-
 $uri = $_SERVER['REQUEST_URI'];
 $uri = array_filter(explode("/", $uri));
 $category = $uri[1] == 'category' ? $uri[2] : $uri[3];
-?>
 
-<main id="site-content" role="main">
-  <h1 class="category-title"><?php single_cat_title(); ?></h1>
-  <hr>
+if ( $uri[1] == 'category' ) {
+  $category = $uri[2];
+  $lang = '';
+} else {
+  // verificar !
 
-  <?php
-  $query = new WP_Query( array(
-    'category_name' => $category,
-    'post_type' => 'any'
-  ) );
-  ?>
+  $category = $uri[3] + '-2';
+  $lang = $uri[1];
 
-  <?php 
-  while ( $query->have_posts() ) : 
-    $query->the_post(); 
-    get_template_part( 'template-parts/content', get_post_type() );
-  endwhile; 
-  wp_reset_postdata(); 
-  ?>
-</main>
+  // verificar !
+}
 
-<?php
-get_footer();
-?>
+$url = '/zona/' . $category . '/';
+
+wp_redirect( $url ); // for example
+exit;
+
+/* 
+http://zonabrunca.local/category/coto-brus/
+http://zonabrunca.local/en/category/en-coto-brus/
+
+http://zonabrunca.local/zona/coto-brus/
+http://zonabrunca.local/en/zona/coto-brus-2/
+*/
