@@ -72,14 +72,23 @@ get_header();
 
 	if ( is_search() ) {
 		?>
-		<section class="cards featured-businesses">
+		<section class="cards-search featured-businesses">
 		<?php
 		if ( have_posts() ) {
 			while ( have_posts() ) {
 				the_post();
+				// echo '<pre>';
+				// var_dump($wp_query->post);
+				// echo '</pre>';
 
-				set_query_var( 'the_query', $wp_query );
-				get_template_part( 'template-parts/featured-businesses-card' );
+				if ( $wp_query->post->post_type == 'zona' || 
+				$wp_query->post->post_type == 'cosas-que-hacer' ||
+				$wp_query->post->post_type == 'donde-comer' ||
+				$wp_query->post->post_type == 'donde-alojarse' ||
+				$wp_query->post->post_type == 'servicios' ) {
+					set_query_var( 'the_query', $wp_query );
+					get_template_part( 'template-parts/featured-businesses-card' );
+				}
 			}
 		} else {
 			// search without results
