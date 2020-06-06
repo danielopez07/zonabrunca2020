@@ -7,15 +7,12 @@ if ( $uri[1] == 'category' ) {
   $category = $uri[2];
   $lang = '';
 } else {
-  // verificar !
-
-  $category = $uri[3] + '-2';
+  $category = $uri[3] . '-2';
+  $category = str_replace( "en-", "", $category );
   $lang = $uri[1];
-
-  // verificar !
 }
 
-$url = '/zona/' . $category . '/';
+$url = '/' . $lang . '/zona/' . $category . '/';
 
 wp_redirect( $url ); // for example
 exit;
