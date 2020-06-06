@@ -224,6 +224,17 @@ button.slick-next  {
 	border-radius: 10px 10px 0 0;
 }
 
+/* Search page */
+.cards-search {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.cards-search div {
+	min-width: 33%;
+}
+
 /* Search form input */
 .search-form .search-field {
 	text-align: center;
