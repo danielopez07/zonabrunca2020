@@ -72,7 +72,7 @@ get_header();
 
 	if ( is_search() ) {
 		?>
-		<section class="cards">
+		<section class="cards featured-businesses">
 		<?php
 		if ( have_posts() ) {
 			while ( have_posts() ) {
