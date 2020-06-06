@@ -9,10 +9,10 @@ if ( $uri[1] == 'category' ) {
 } else {
   $category = $uri[3] . '-2';
   $category = str_replace( "en-", "", $category );
-  $lang = $uri[1];
+  $lang = $uri[1] . '/';
 }
 
-$url = '/' . $lang . '/zona/' . $category . '/';
+$url = '/' . $lang . 'zona/' . $category . '/';
 
 wp_redirect( $url ); // for example
 exit;
