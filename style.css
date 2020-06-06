@@ -234,6 +234,9 @@ button.slick-next  {
 .cards-search div {
 	min-width: 33%;
 }
+.nav-links a {
+	color: var(--verde);
+}
 
 /* Search form input */
 .search-form .search-field {

@@ -77,10 +77,7 @@ get_header();
 		if ( have_posts() ) {
 			while ( have_posts() ) {
 				the_post();
-				// echo '<pre>';
-				// var_dump($wp_query->post);
-				// echo '</pre>';
-
+				
 				if ( $wp_query->post->post_type == 'zona' || 
 				$wp_query->post->post_type == 'cosas-que-hacer' ||
 				$wp_query->post->post_type == 'donde-comer' ||
