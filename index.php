@@ -70,7 +70,7 @@ get_header();
 		<?php
 	}
 
-	if ( is_search() ) {
+	if ( is_search() || !is_page() || !is_single() ) {
 		?>
 		<section class="cards-search featured-businesses">
 		<?php
