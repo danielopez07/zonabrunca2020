@@ -1,5 +1,5 @@
 <div><article class="card">
-    <a href="' . esc_url( get_permalink() ) . '">
+    <a href="<?php esc_url( get_permalink() ) ?> '">
     <?php
         $img = get_the_post_thumbnail($the_query->post->ID, 'medium');
         if($img)
