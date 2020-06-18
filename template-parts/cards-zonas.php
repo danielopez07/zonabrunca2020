@@ -11,11 +11,11 @@ if ( $the_query->have_posts() ) {
         
         echo '<article class="card">';
         echo '<a href="' . esc_url( get_permalink() ) . '">';
-        $img = get_the_post_thumbnail($the_query->post->ID, 'medium');
+        $img = get_the_post_thumbnail($the_query->post->ID, 'medium', ['loading' => 'lazy']);
         if($img)
-          echo '<figure class="card-image">' . get_the_post_thumbnail($the_query->post->ID, 'medium') . '</figure>';
+          echo '<figure class="card-image">' . $img . '</figure>';
         else {
-          echo '<figure class="card-image"><img src="wp-content/uploads/2020/02/PZ-scaled-1-300x169.jpg" class="attachment-medium size-medium wp-post-image" alt="" srcset="/wp-content/uploads/2020/02/PZ-scaled-1-300x169.jpg 300w, /wp-content/uploads/2020/02/PZ-scaled-1-1024x576.jpg 1024w, /wp-content/uploads/2020/02/PZ-scaled-1-768x432.jpg 768w, /wp-content/uploads/2020/02/PZ-scaled-1-1536x864.jpg 1536w, /wp-content/uploads/2020/02/PZ-scaled-1-2048x1152.jpg 2048w, /wp-content/uploads/2020/02/PZ-scaled-1-1200x675.jpg 1200w, /wp-content/uploads/2020/02/PZ-scaled-1-1980x1114.jpg 1980w" sizes="(max-width: 300px) 100vw, 300px" width="300" height="169"></figure>';
+          echo '<figure class="card-image"><img loading="lazy" src="wp-content/uploads/2020/02/PZ-scaled-1-300x169.jpg" class="attachment-medium size-medium wp-post-image" alt="" srcset="/wp-content/uploads/2020/02/PZ-scaled-1-300x169.jpg 300w, /wp-content/uploads/2020/02/PZ-scaled-1-1024x576.jpg 1024w, /wp-content/uploads/2020/02/PZ-scaled-1-768x432.jpg 768w, /wp-content/uploads/2020/02/PZ-scaled-1-1536x864.jpg 1536w, /wp-content/uploads/2020/02/PZ-scaled-1-2048x1152.jpg 2048w, /wp-content/uploads/2020/02/PZ-scaled-1-1200x675.jpg 1200w, /wp-content/uploads/2020/02/PZ-scaled-1-1980x1114.jpg 1980w" sizes="(max-width: 300px) 100vw, 300px" width="300" height="169"></figure>';
         }
         echo '<h2>' . get_the_title() . '</h2>';
         echo '</a>';

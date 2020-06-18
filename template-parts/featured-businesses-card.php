@@ -1,11 +1,11 @@
 <div><article class="card">
     <a href="<?php echo esc_url( get_permalink() ) ?> ">
     <?php
-        $img = get_the_post_thumbnail($the_query->post->ID, 'medium');
+        $img = get_the_post_thumbnail($the_query->post->ID, 'medium', ['loading' => 'lazy']);
         if($img)
-            echo '<figure class="card-image">' . get_the_post_thumbnail($the_query->post->ID, 'medium') . '</figure>';
+            echo '<figure class="card-image">' . $img . '</figure>';
         else {
-            echo '<figure class="card-image"><img src="/wp-content/themes/zonabrunca2020/imgs/BallenaUvita-mobile.jpg"></figure>';
+            echo '<figure class="card-image"><img loading="lazy" src="/wp-content/themes/zonabrunca2020/imgs/BallenaUvita-mobile.jpg"></figure>';
         }
     ?>
     </a>
