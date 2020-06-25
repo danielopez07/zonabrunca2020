@@ -234,6 +234,11 @@ button.slick-next  {
 .cards-search div {
 	min-width: 33%;
 }
+@media (min-width: 1400px) {
+	.cards-search div {
+		min-width: 25%;
+	}
+}
 .nav-links a {
 	color: var(--verde);
 }
