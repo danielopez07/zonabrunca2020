@@ -30,7 +30,7 @@ function slick_carousel() {
         wp_enqueue_script( 'embla-carousel-js', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array(), false, true );
         wp_enqueue_style( 'embla-carousel-css-1', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array(), false, 'all' );
         wp_enqueue_style( 'embla-carousel-css-2', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css', array(), false, 'all' );
-        wp_enqueue_script( 'front_page_js', get_stylesheet_directory_uri() . '/js/slick-config.js' );
+        wp_enqueue_script( 'slick_carousel', get_stylesheet_directory_uri() . '/js/slick-config.js' );
     }
 }
 
